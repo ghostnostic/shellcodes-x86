@@ -26,4 +26,4 @@ gcc executor.c -o execute
 * **sh_shell** - implements both eip-based and stack-based approaches of passing data into shellcode. Both \*.asm files are working, but only second way is working when we try to run shellcode from C program, because of 0x00 byte in the first shellcode (necessary for proper SYS_EXECVE call). 
 
 ## Resources
-* (Syscall Reference)[https://syscalls.kernelgrok.com/]
+* [Syscall Reference](https://syscalls.kernelgrok.com/)
