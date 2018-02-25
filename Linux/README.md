@@ -25,4 +25,4 @@ gcc executor.c -o execute
 
 
 ## Resources
-* (Syscall Reference)[https://syscalls.kernelgrok.com/]
+* [Syscall Reference](https://syscalls.kernelgrok.com/)
