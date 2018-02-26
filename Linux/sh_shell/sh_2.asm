@@ -11,7 +11,7 @@ _start:
     push 0x68732f2f	; push "hs//" - extra / to avoid \x00
     push 0x6e69622f	; push "nib/"
    
-    mov ebx, esp	; EBX points to the "/bin/bash" string 
+    mov ebx, esp	; EBX points to the "/bin//sh" string 
  
     xor ecx, ecx 	; Set 0 all other params
     xor edx, edx        ; for SYS_EXECVE
